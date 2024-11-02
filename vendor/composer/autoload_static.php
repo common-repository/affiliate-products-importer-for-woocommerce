@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit06145e49860cc2f33df69068d70abffd
+class ComposerStaticInitb4ca990c8816958e5193844a40f96abe
 {
     public static $classMap = array (
         'AFFPRODIMP\\App\\Admin_Pages\\AffiliateProductsImporter' => __DIR__ . '/../..' . '/app/admin-pages/class-affiliate-products-importer.php',
@@ -15,6 +15,7 @@ class ComposerStaticInit06145e49860cc2f33df69068d70abffd
         'AFFPRODIMP\\App\\Endpoints\\V1\\ImportSettings' => __DIR__ . '/../..' . '/app/endpoints/v1/class-import-settings.php',
         'AFFPRODIMP\\App\\Endpoints\\V1\\Product' => __DIR__ . '/../..' . '/app/endpoints/v1/class-product.php',
         'AFFPRODIMP\\App\\Endpoints\\V1\\Products' => __DIR__ . '/../..' . '/app/endpoints/v1/class-products.php',
+        'AFFPRODIMP\\App\\Endpoints\\V1\\SupportMessage' => __DIR__ . '/../..' . '/app/endpoints/v1/class-support-message.php',
         'AFFPRODIMP\\App\\WooCommerce\\WooCommerceIntegration' => __DIR__ . '/../..' . '/app/woocommerce/class-woocommerce-integration.php',
         'AFFPRODIMP\\Core\\Base' => __DIR__ . '/../..' . '/core/class-base.php',
         'AFFPRODIMP\\Core\\Endpoint' => __DIR__ . '/../..' . '/core/class-endpoint.php',
@@ -29,7 +30,7 @@ class ComposerStaticInit06145e49860cc2f33df69068d70abffd
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->classMap = ComposerStaticInit06145e49860cc2f33df69068d70abffd::$classMap;
+            $loader->classMap = ComposerStaticInitb4ca990c8816958e5193844a40f96abe::$classMap;
 
         }, null, ClassLoader::class);
     }

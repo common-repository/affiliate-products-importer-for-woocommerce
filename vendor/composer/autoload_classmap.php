@@ -14,6 +14,7 @@ return array(
     'AFFPRODIMP\\App\\Endpoints\\V1\\ImportSettings' => $baseDir . '/app/endpoints/v1/class-import-settings.php',
     'AFFPRODIMP\\App\\Endpoints\\V1\\Product' => $baseDir . '/app/endpoints/v1/class-product.php',
     'AFFPRODIMP\\App\\Endpoints\\V1\\Products' => $baseDir . '/app/endpoints/v1/class-products.php',
+    'AFFPRODIMP\\App\\Endpoints\\V1\\SupportMessage' => $baseDir . '/app/endpoints/v1/class-support-message.php',
     'AFFPRODIMP\\App\\WooCommerce\\WooCommerceIntegration' => $baseDir . '/app/woocommerce/class-woocommerce-integration.php',
     'AFFPRODIMP\\Core\\Base' => $baseDir . '/core/class-base.php',
     'AFFPRODIMP\\Core\\Endpoint' => $baseDir . '/core/class-endpoint.php',
